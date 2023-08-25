@@ -170,9 +170,9 @@ const BLOG = {
   // 動態彩帶特效
   FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, //true,// 開關
   // 靜態彩帶特效
-  RIBBON: process.env.NEXT_PUBLIC_RIBBON || true,//false, // 開關
+  RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, //true,// 開關
   // 星空雨特效 黑夜模式才會生效
-  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true,//false, // 開關
+  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, //true,// 開關
 
   //   ********掛件組件相關********
   // Chatbase
