@@ -13,12 +13,12 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜間模式起至時間，false時關閉根據時間自動切換夜間模式
 
   // 3.14.1版本後，歡迎語在此配置，英文逗號隔開 ,  即可支持多個歡迎語打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我是一個程序員, Hi，我是一個打工人,Hi，我是一個乾飯人,歡迎來到我的博客🎉',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我是一個程序員, Hi，我是一個打工人,Hi，我是一個幹飯人,歡迎來到我的博客🎉',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true,//false, // 支持Menu 類型，從3.12.0版本起，各主題將逐步支持靈活的二級菜單配置，替代了原來的Page類型，此配置是試驗功能、默認關閉。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵稱 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一個普通的乾飯人🍚', // 作者簡介
+  BIO: process.env.NEXT_PUBLIC_BIO || '一個普通的幹飯人🍚', // 作者簡介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 網站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 網站關鍵詞 英文逗號隔開
 
@@ -154,7 +154,7 @@ const BLOG = {
 
   //   ********動態特效相關********
   // 鼠標點擊煙花特效
-  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true,//false, // 開關
+  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, //true,// 開關
   // 煙花色彩，感謝 https://github.com/Vixcity 提交的色彩
   FIREWORKS_COLOR: [
     '255, 20, 97',
